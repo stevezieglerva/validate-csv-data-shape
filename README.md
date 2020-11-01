@@ -1,6 +1,6 @@
 # validate-csv-data-shape
 
-📈 Validates the shape of the numerical fields of data in a CSV file to make sure the average or standard deviation is similar to expected values. Existing CSV validators check row counts, field definitions, and data values. But, they do not check if they data has changed significantly from expected values. This could help detect upstream data generation issues.
+📈 Validates the shape of the numerical fields of data in a CSV file to make sure the average and standard deviation is similar to expected values. Existing CSV validators check row counts, field definitions, and data values. But, they do not check if the data has changed significantly from expected values. This validator could help detect upstream data generation issues.
 
 # Pre-reqs
 ```python
